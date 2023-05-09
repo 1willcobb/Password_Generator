@@ -84,25 +84,6 @@ function generatePassword(){
   // log the password to confirm it worked
   console.log(password)
 
-    //!prompt for character types
-    //*new stuff here PAY ATTENTION
-
-
-  //** TRHIS IS SOME MASTER STUFF */
-  //?main branch statement
-
-  //!!!Fundamentally a new line
-
-    //hey
-    //-lowercase
-    //-upercase
-    //-numeric
-    //-special char
-
-    //!Each prompt should be validated (with a response) and at least 1 char type selected
-
-    //! When generated, the password is displayed in the password box
-
     //return the password tot he writePassword function so that var password in that function equals the password generated in this function
     return password;
   };
