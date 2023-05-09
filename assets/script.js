@@ -85,7 +85,7 @@ function generatePassword(){
   console.log(password)
 
     //!prompt for character types
-    //new stuff here
+    //*new stuff here PAY ATTENTION
 
     //-lowercase
     //-upercase
