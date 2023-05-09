@@ -87,6 +87,8 @@ function generatePassword(){
     //!prompt for character types
     //*new stuff here PAY ATTENTION
 
+
+  //** TRHIS IS SOME MASTER STUFF */
   //?main branch statement
 
   //!!!Fundamentally a new line
