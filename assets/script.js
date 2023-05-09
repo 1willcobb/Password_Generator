@@ -1,7 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-
 //prompt function 
 function generatePassword(){
   // chosen length of password
@@ -13,7 +12,7 @@ function generatePassword(){
   var numb = "1234567890";
   var special = "!@#$%^&*()";
   // a temporary hold of chosen characters
-  var passwordSelector;
+  var passwordSelector = "";
 
   // Prompt for the length of password. (Between 8-128)
   while (true) {

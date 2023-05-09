@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="card">
+    <header>
+      <h1>PASSWORD GENERATOR</h1>
+    </header>
+
+      <div class="prompt-generator">
         <div class="card-header">
-          <h2>Generate a Password</h2>
+          <h2>Generate a Password Utalizing Browser <span>Prompts</span></h2>
         </div>
         <div class="card-body">
           <textarea
@@ -25,10 +25,49 @@
           ></textarea>
         </div>
         <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+          <button id="generate" class="btn">Generate Password Prompts</button>
         </div>
       </div>
-    </div>
+
+      <div class="check-box-generator">
+        <div class="card-header">
+          <h2>Generate a Password with <span>Input and Checkboxes</span></h2>
+        </div>
+        <div class="card-body">
+          <h3>Password Length</h3>
+          <input type="number" id="length-selector" min="8" max="128" placeholder="8-128">
+          <h3>Included Characters</h3>
+          <div id="multiple-check-boxes">
+            <a>
+              <input type="checkbox" id="lowercase">
+              <label for="lowercase">Lowercase</label>
+            </a>
+            <a>
+              <input type="checkbox" id="uppercase">
+              <label for="uppercase">Uppercase</label>
+            </a>
+            <a>
+              <input type="checkbox" id="numbers">
+              <label for="numbers">Numbers</label>
+            </a>
+            <a>
+              <input type="checkbox" id="special-char">
+              <label for="special-char">Special Characters</label>
+            </a>
+          </div>
+          <textarea
+            readonly
+            id="password2"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate2" class="btn">Generate Password</button>
+        </div>
+      </div>
+
     <script src="./assets/script.js"></script>
+    <script src="./assets/script-check.js"></script>
   </body>
 </html>
