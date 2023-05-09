@@ -87,6 +87,11 @@ function generatePassword(){
     //!prompt for character types
     //*new stuff here PAY ATTENTION
 
+  //?main branch statement
+
+  
+
+    //hey
     //-lowercase
     //-upercase
     //-numeric
