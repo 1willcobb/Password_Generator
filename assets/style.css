@@ -28,6 +28,10 @@ span {
   color: hsl(360, 91%, 36%);
 }
 
+header {
+  text-align: center;
+}
+
 .prompt-generator, .check-box-generator {
   border-radius: 15px;
   box-shadow:
